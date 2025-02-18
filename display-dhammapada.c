@@ -194,7 +194,8 @@ Print_verse (FILE * dp, char *end_mark)
 
      //while (strstr (s, end_mark) == NULL);
      /* do */
-     for(int line=0; strstr (s, end_mark) == NULL; line++)
+     int = 0;
+     for(line = 0; strstr (s, end_mark) == NULL; line++)
        {
             if (fgets (s, max_string_length, dp) == NULL)
                  if (feof (dp))
